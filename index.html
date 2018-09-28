@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+    
+    <div class="background">
+
+        <div class="nav">
+            <a class="a" href="index.html">Home</a>
+            <a class="b" href="Cv.html">Curriculum Vitae</a>
+            <a class="c" href="hobby.html">Hobby's</a>
+            <a class="d" href="contact.html">Contact</a>
+
+
+
+
+        </div>
+        <div class="content">
+
+            <div class="Home">
+                <h1>Ik ben Martijn Klunder</h1>
+                <h3>HBO-ICT student</h3>
+        </div>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('a').click(function () {
+            //alert("i am click");
+            var selected = $(this);
+            $('a').removeClass('.active');
+            $(selected).addClass('active');
+            
+            
+
+        });
+    });
+</script>
+</body>
+
+</html>
