@@ -80,36 +80,7 @@ html, body {
     right: 0;
     top: 10%;
     column-count: 2;
-    
-    
-    
-}
-.content .left{
-    width: 700px;
-    min-height: 800px;
-    float: left;
-   // background-color: green;
-    font-family: Arial;
-    font-size: 25px;
     color: white;
 }
-    .content .right {
-        width: 750px;
-        min-height: 800px;
-        float: right;
-      //background-color: blue;
-        font-family: Arial;
-        font-size: 25px;
-        color: white;
-    }
-
-
 
     
-
- 
-
-
-
-
-
